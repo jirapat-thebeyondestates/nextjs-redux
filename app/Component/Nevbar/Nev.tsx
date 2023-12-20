@@ -14,11 +14,11 @@ function Nev() {
             <div className="bg-red-900 text-amber-300 px-5 py-3 flex justify-between items-center">
                 <Link href={"/"}>
                     <div className="p-3 text-red-900 font-bold bg-amber-100 rounded-[10px]">
-                        Home
+                        Navbar.
                     </div>
                 </Link>
                 <span className={"font-bold"}>
-                    Count from store : [ {count} ]
+                    Count from home page : [ {count} ]
                 </span>
                 <div>
                     <Link className="ml-3 hover:underline hover:underline-offset-4" href={"/login"}>Login</Link>

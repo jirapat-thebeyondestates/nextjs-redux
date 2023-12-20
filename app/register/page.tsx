@@ -4,7 +4,7 @@ function Register() {
             <h1 className={"text-2xl font-bold mb-5"}>
                 Registration
             </h1>
-            <form action={"/login"} method="post">
+            <form action={"#"} method="post">
                 <div className={"mb-3"}>
                     <input className="border-2 border-gray-500 focus:outline-0 p-3" type="text" name="fName"
                            placeholder={"First Name"} required/>
